@@ -70,6 +70,8 @@ def export_hour(target_hour: datetime) -> Path | None:
         dates_to_check.append(utc_date_str)
     
     event_count = 0
+    memory_saved = False
+    analytics_saved = False
     with open(output_file, 'w') as out:
         for d in dates_to_check:
             for event_file in find_event_files(d):
@@ -83,8 +85,21 @@ def export_hour(target_hour: datetime) -> Path | None:
                                 ev = json.loads(line)
                                 ts = ev.get('ts_ms', 0)
                                 if start_ms <= ts < end_ms:
-                                    out.write(line + '\n')
-                                    event_count += 1
+                                    ev_type = ev.get('type', '')
+                                    # Alleen orderflow events (sweeps, absorption, iceberg, stack, pull, state changes)
+                                    if ev_type == 'orderflow_event':
+                                        out.write(line + '\n')
+                                        event_count += 1
+                                    # 1x liquidity memory snapshot per uur (laatste)
+                                    elif ev_type == 'liquidity_memory_snapshot' and not memory_saved:
+                                        out.write(line + '\n')
+                                        event_count += 1
+                                        memory_saved = True
+                                    # 1x analytics state per uur (voor DQ/market state context)
+                                    elif ev_type == 'analytics_state' and not analytics_saved:
+                                        out.write(line + '\n')
+                                        event_count += 1
+                                        analytics_saved = True
                                 elif ts >= end_ms:
                                     # Events zijn chronologisch, stop hier
                                     break

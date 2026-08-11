@@ -92,3 +92,7 @@ fatal: Authentication failed for 'https://github.com/roycroes74-boop/nexus-hourl
 [Export] 4477 events → hour_15.jsonl (2026-08-11 15:00 NL)
 [Git] Push succesvol
 [Export] Klaar
+Exporting 2026-08-11 hour 16 (16:00-17:00 NL)
+  Events: 5586, Book snapshots: 60
+  Output: /home/ubuntu/nexus-hourly-export/hourly-data/2026-08-11/hour_16.jsonl (4243 KB)
+  Pushed to GitHub ✅

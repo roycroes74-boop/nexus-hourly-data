@@ -56,3 +56,9 @@ fatal: Authentication failed for 'https://github.com/roycroes74-boop/nexus-hourl
 fatal: Authentication failed for 'https://github.com/roycroes74-boop/nexus-hourly-data.git/'
 
 [Export] Klaar
+[Export] Start: exporteer 2026-08-11 08:00 NL
+[Export] 1611 events → hour_08.jsonl (2026-08-11 08:00 NL)
+[Git] Push mislukt: remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/roycroes74-boop/nexus-hourly-data.git/'
+
+[Export] Klaar

@@ -80,3 +80,7 @@ fatal: Authentication failed for 'https://github.com/roycroes74-boop/nexus-hourl
 [Export] 1692 events → hour_12.jsonl (2026-08-11 12:00 NL)
 [Git] Push succesvol
 [Export] Klaar
+[Export] Start: exporteer 2026-08-11 13:00 NL
+[Export] 2285 events → hour_13.jsonl (2026-08-11 13:00 NL)
+[Git] Push succesvol
+[Export] Klaar

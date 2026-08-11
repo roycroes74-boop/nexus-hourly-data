@@ -14,3 +14,9 @@
 [Export] 314 events → hour_00.jsonl (2026-08-11 00:00 NL)
 [Git] Push succesvol
 [Export] Klaar
+[Export] Start: exporteer 2026-08-11 01:00 NL
+[Export] 790 events → hour_01.jsonl (2026-08-11 01:00 NL)
+[Git] Push mislukt: remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/roycroes74-boop/nexus-hourly-data.git/'
+
+[Export] Klaar

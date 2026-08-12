@@ -56,3 +56,34 @@ Actual time range: 00:00:00-01:59:59 NL
 
 Pushing to GitHub...
   Pushed to GitHub ✅
+=== FULL TICK EXPORT ===
+Window: 2026-08-12 02:00-04:00 NL
+UTC range: 00:00-02:00 UTC
+Output: /home/ubuntu/nexus-hourly-export/full-tick-data/2026-08-12/02h00_04h00_NL_FULL_MBO32.jsonl.gz
+
+Extracting raw book snapshots + trades...
+  Raw records: 42002
+Extracting NEXUS events + state + memory...
+  NEXUS records: 22926
+  Total records: 64928
+Sorting chronologically...
+Writing gzipped output...
+
+=== DONE ===
+Output: /home/ubuntu/nexus-hourly-export/full-tick-data/2026-08-12/02h00_04h00_NL_FULL_MBO32.jsonl.gz
+Size: 2.95 MB (gzipped)
+Records: 64928
+
+Breakdown:
+  book_snapshot: 33014
+  nexus_state: 14091
+  trade: 8988
+  nexus_memory_snapshot: 7048
+  nexus_orderflow_event: 1787
+
+Actual time range: 02:00:00-03:59:59 NL
+
+Pushing to GitHub...
+  Push failed: remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/roycroes74-boop/nexus-hourly-data.git/'
+

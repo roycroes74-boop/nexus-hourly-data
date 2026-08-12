@@ -27,3 +27,32 @@ Actual time range: 20:00:00-21:59:59 NL
 
 Pushing to GitHub...
   Pushed to GitHub ✅
+=== FULL TICK EXPORT ===
+Window: 2026-08-12 00:00-02:00 NL
+UTC range: 22:00-00:00 UTC
+Output: /home/ubuntu/nexus-hourly-export/full-tick-data/2026-08-12/00h00_02h00_NL_FULL_MBO32.jsonl.gz
+
+Extracting raw book snapshots + trades...
+  Raw records: 16076
+Extracting NEXUS events + state + memory...
+  NEXUS records: 22029
+  Total records: 38105
+Sorting chronologically...
+Writing gzipped output...
+
+=== DONE ===
+Output: /home/ubuntu/nexus-hourly-export/full-tick-data/2026-08-12/00h00_02h00_NL_FULL_MBO32.jsonl.gz
+Size: 2.25 MB (gzipped)
+Records: 38105
+
+Breakdown:
+  nexus_state: 14127
+  book_snapshot: 11365
+  nexus_memory_snapshot: 7064
+  trade: 4711
+  nexus_orderflow_event: 838
+
+Actual time range: 00:00:00-01:59:59 NL
+
+Pushing to GitHub...
+  Pushed to GitHub ✅

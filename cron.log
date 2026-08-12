@@ -134,3 +134,9 @@ Exporting 2026-08-12 hour 01 (01:00-02:00 NL)
   Events: 276, Book snapshots: 60
   Output: /home/ubuntu/nexus-hourly-export/hourly-data/2026-08-12/hour_01.jsonl (254 KB)
   Pushed to GitHub ✅
+Exporting 2026-08-12 hour 02 (02:00-03:00 NL)
+  Events: 837, Book snapshots: 60
+  Output: /home/ubuntu/nexus-hourly-export/hourly-data/2026-08-12/hour_02.jsonl (676 KB)
+  Push failed: remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/roycroes74-boop/nexus-hourly-data.git/'
+

@@ -130,3 +130,7 @@ Exporting 2026-08-12 hour 00 (00:00-01:00 NL)
   Events: 562, Book snapshots: 60
   Output: /home/ubuntu/nexus-hourly-export/hourly-data/2026-08-12/hour_00.jsonl (471 KB)
   Pushed to GitHub ✅
+Exporting 2026-08-12 hour 01 (01:00-02:00 NL)
+  Events: 276, Book snapshots: 60
+  Output: /home/ubuntu/nexus-hourly-export/hourly-data/2026-08-12/hour_01.jsonl (254 KB)
+  Pushed to GitHub ✅

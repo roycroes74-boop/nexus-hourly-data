@@ -87,3 +87,34 @@ Pushing to GitHub...
   Push failed: remote: Invalid username or token. Password authentication is not supported for Git operations.
 fatal: Authentication failed for 'https://github.com/roycroes74-boop/nexus-hourly-data.git/'
 
+=== FULL TICK EXPORT ===
+Window: 2026-08-12 04:00-06:00 NL
+UTC range: 02:00-04:00 UTC
+Output: /home/ubuntu/nexus-hourly-export/full-tick-data/2026-08-12/04h00_06h00_NL_FULL_MBO32.jsonl.gz
+
+Extracting raw book snapshots + trades...
+  Raw records: 26207
+Extracting NEXUS events + state + memory...
+  NEXUS records: 23208
+  Total records: 49415
+Sorting chronologically...
+Writing gzipped output...
+
+=== DONE ===
+Output: /home/ubuntu/nexus-hourly-export/full-tick-data/2026-08-12/04h00_06h00_NL_FULL_MBO32.jsonl.gz
+Size: 2.56 MB (gzipped)
+Records: 49415
+
+Breakdown:
+  book_snapshot: 21231
+  nexus_state: 14101
+  nexus_memory_snapshot: 7054
+  trade: 4976
+  nexus_orderflow_event: 2053
+
+Actual time range: 04:00:00-05:59:59 NL
+
+Pushing to GitHub...
+  Push failed: remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/roycroes74-boop/nexus-hourly-data.git/'
+

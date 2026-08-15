@@ -1,0 +1,62 @@
+{
+ "fixture_version": "1.0",
+ "engine": "EVENING-REPORT-LITE",
+ "engine_version": "1.1.0",
+ "config_hash": "9624bb9e",
+ "source_file": "full-tick-data/2026-08-13/10h00_12h00_NL_FULL_MBO32.jsonl.gz",
+ "source_sha256": "f9814d48040a99580573a39b4c250ad80fcc3e4ec2e5d6f6fbb4aa1036bc1eb6",
+ "counts": {
+  "trade": 10421,
+  "book_snapshot": 25076,
+  "nexus_state": 14144,
+  "nexus_orderflow_event": 2383,
+  "nexus_memory_snapshot": 7074
+ },
+ "first_ts_ms": 1786608000046,
+ "last_ts_ms": 1786615199869,
+ "trade_volume_sum": 12176,
+ "state_transitions": 261,
+ "turning_points": 8,
+ "tp_list": [
+  [
+   1786608090039,
+   7778.5,
+   "TOP"
+  ],
+  [
+   1786608237901,
+   7775.0,
+   "BOTTOM"
+  ],
+  [
+   1786608424266,
+   7780.0,
+   "TOP"
+  ],
+  [
+   1786608720860,
+   7777.5,
+   "BOTTOM"
+  ],
+  [
+   1786608905112,
+   7780.0,
+   "TOP"
+  ],
+  [
+   1786609148356,
+   7777.0,
+   "BOTTOM"
+  ],
+  [
+   1786611098694,
+   7783.0,
+   "TOP"
+  ],
+  [
+   1786612536677,
+   7778.0,
+   "BOTTOM"
+  ]
+ ]
+}

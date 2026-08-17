@@ -1,0 +1,16 @@
+{
+ "engine": "CANONICAL-PIPELINE",
+ "version": "1.0.0",
+ "config_hash": "2961beb4",
+ "core": "EVENING-REPORT-LITE v1.1.0 (9624bb9e)",
+ "day": "2026-08-13",
+ "turning_points": 34,
+ "episodes": 181,
+ "episodes_closed": 181,
+ "hold": 99,
+ "brick_locations": 18,
+ "chain_fires": 67,
+ "recall_primary": 0.3235,
+ "recall_strict": 0.1176,
+ "precision_primary": 0.1642
+}

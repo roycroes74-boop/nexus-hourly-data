@@ -1,43 +1,61 @@
 {
+ "PREV_RTH_WITHHELD_DUE_TO_HOLDOUT": true,
  "canon": {
   "AGG_DELTA_MAX": -5,
   "AGG_OPP_FACTOR": 1.2,
   "AGG_QUIET_MIN": 6,
   "AGG_WINDOW_MS": 120000,
   "AUCTION_VACUUM_FACTOR": 0.8,
+  "CLUSTER_TOL": 0.5,
   "CORE_ENGINE": "EVENING-REPORT-LITE",
   "CORE_HASH": "9624bb9e",
   "CORE_VERSION": "1.1.0",
   "ENGINE": "CANDIDATE-PIPELINE-V3",
   "LADDER": "LADDER_BASELINE_v1.0.0",
   "LADDER_HASH": "efa45defcb7edb217b655fd47f53c20e7d5be15e326b64192f9a49373890730d",
+  "LOCATION_SPEC": "LOCATION_SOURCE_SPEC_v1.0.0",
+  "LOCATION_SPEC_HASH": "9887f4edd4b92f4174efb7c1671d195cebeebad2a97c9894ce03988882cdbb90",
   "LOC_MIN_LEAD_MIN": 15,
   "LOC_MIN_SOURCES": 2,
-  "MEMORY_QUALIFY": "snapshot_presence",
+  "MEMORY_QUALIFY": "historical_weight>=50",
+  "MEMORY_WEIGHT_MIN": 50.0,
   "PASSIVE_FACTOR": 1.3,
   "PASSIVE_MIN": 5,
   "PASSIVE_WINDOW_MS": 300000,
+  "PRIOR_ALLOW_SEALED_PREV_DAY": false,
+  "PRIOR_EXTREME_STEP": 0.5,
+  "PRIOR_SOURCES": "prev_rth_high,prev_rth_low,overnight_high,overnight_low,session_open",
   "PROTOCOL": "CANDIDATE_PROTOCOL_v3",
   "PROTOCOL_HASH": "03a35bd3512f7a2aea478faf4b2e14f982e02ef4f8794a5636f13ce518c52b0e",
   "REARM_DEPART": 1.5,
+  "RTH_CLOSE_MIN": 1320,
+  "RTH_OPEN_MIN": 930,
+  "SESSION_OPENS_MIN": [
+   0,
+   540,
+   840,
+   930
+  ],
   "TOL_PRIMARY": 0.5,
   "TOL_STRICT": 0.25,
-  "VERSION": "0.2.0",
+  "VERSION": "0.5.0",
   "ZONE_HALF": 0.25
  },
- "config_hash": "596cf7ba5da3",
+ "config_hash": "7630e27b7601",
  "core_engine": "EVENING-REPORT-LITE",
  "core_hash": "9624bb9e",
  "core_version": "1.1.0",
  "day": "2026-08-17",
  "engine": "CANDIDATE-PIPELINE-V3",
- "engine_version": "0.2.0",
+ "engine_version": "0.5.0",
  "event_layer_version": "NEXUS FLOW HEADLESS 2.1.0",
  "file": "candidates_2026-08-17.jsonl",
  "ladder": "LADDER_BASELINE_v1.0.0",
  "ladder_hash": "efa45defcb7edb217b655fd47f53c20e7d5be15e326b64192f9a49373890730d",
+ "location_spec": "LOCATION_SOURCE_SPEC_v1.0.0",
+ "location_spec_hash": "9887f4edd4b92f4174efb7c1671d195cebeebad2a97c9894ce03988882cdbb90",
  "meta": {
-  "locations": 126,
+  "locations": 53,
   "window": [
    1786917600097,
    1786996799655
@@ -45,60 +63,94 @@
  },
  "protocol": "CANDIDATE_PROTOCOL_v3",
  "protocol_hash": "03a35bd3512f7a2aea478faf4b2e14f982e02ef4f8794a5636f13ce518c52b0e",
- "rows": 1863,
- "sha256": "0c4a99e0fe3e41875599f7532d1725b78d8d4d6ccae65885ef1304cb3d770370",
+ "rows": 528,
+ "sha256": "d029719652ec5e57f448e04818b25d163e9334b107b57ca02d16a369a7adbb41",
+ "shadow": {
+  "PREV_RTH_WITHHELD_DUE_TO_HOLDOUT": true,
+  "prev_day": "2026-08-14",
+  "prev_day_sealed": true
+ },
  "summary": {
   "AGGRESSION": {
-   "FAIL": 792,
-   "PASS": 1068
+   "FAIL": 214,
+   "PASS": 311
   },
   "AGGRESSION_REASON": {
-   "DELTA_AGAINST_THESIS": 519,
-   "NO_OPPONENT_ATTACK": 792,
-   "OPPONENT_VOLUME": 549
+   "DELTA_AGAINST_THESIS": 142,
+   "NO_OPPONENT_ATTACK": 214,
+   "OPPONENT_VOLUME": 169
   },
   "AUCTION": {
-   "FAIL": 661,
-   "PASS": 1199
+   "FAIL": 171,
+   "PASS": 354
   },
   "INVALIDATION": {
-   "INVALID": 66,
-   "OK": 1794
+   "INVALID": 11,
+   "OK": 514
   },
   "LOCATION": {
-   "FAIL": 313,
-   "PASS": 1547
+   "FAIL": 127,
+   "PASS": 398
   },
   "PASSIVE": {
-   "FAIL": 1082,
-   "PASS": 778
+   "FAIL": 302,
+   "PASS": 223
   },
-  "all_four_pass": 178,
-  "evaluable": 1860,
-  "locations_with_candidates": 109,
+  "all_four_pass": 57,
+  "confluence_count": {
+   "1": 106,
+   "2": 234,
+   "3": 188
+  },
+  "evaluable": 525,
+  "lead_time_minutes": {
+   "max": 1050.0,
+   "median": 260.62,
+   "min": 0.24,
+   "p25": 39.83,
+   "p75": 757.53
+  },
+  "locations_with_candidates": 47,
   "not_evaluable_reason": {
    "BOOK_NOT_32": 3
   },
+  "prior_reference": {
+   "overnight_high": 166,
+   "overnight_low": 98
+  },
   "session": {
-   "ASIA": 156,
-   "LONDON": 270,
-   "PREMARKET": 191,
-   "US_RTH": 1246
+   "ASIA": 32,
+   "LONDON": 105,
+   "PREMARKET": 95,
+   "US_RTH": 296
+  },
+  "source_breakdown": {
+   "BRICK": 100,
+   "BRICK+MEMORY": 159,
+   "BRICK+MEMORY+PRIOR": 188,
+   "BRICK+PRIOR": 75,
+   "MEMORY": 5,
+   "PRIOR": 1
+  },
+  "source_presence": {
+   "BRICK": 522,
+   "MEMORY": 352,
+   "PRIOR": 264
   },
   "thesis": {
-   "LONG": 947,
-   "SHORT": 916
+   "LONG": 267,
+   "SHORT": 261
   },
-  "total": 1863,
+  "total": 528,
   "touches_per_location": {
-   "max": 55,
-   "mean": 17.1,
-   "median": 14,
-   "top5_share_pct": 14
+   "max": 28,
+   "mean": 11.2,
+   "median": 10,
+   "top5_share_pct": 24
   },
   "universe": {
    "U1": 3,
-   "U2": 1860
+   "U2": 525
   }
  }
 }

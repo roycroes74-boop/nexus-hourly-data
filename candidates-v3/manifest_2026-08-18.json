@@ -1,0 +1,156 @@
+{
+ "PREV_RTH_WITHHELD_DUE_TO_HOLDOUT": false,
+ "canon": {
+  "AGG_DELTA_MAX": -5,
+  "AGG_OPP_FACTOR": 1.2,
+  "AGG_QUIET_MIN": 6,
+  "AGG_WINDOW_MS": 120000,
+  "AUCTION_VACUUM_FACTOR": 0.8,
+  "CLUSTER_TOL": 0.5,
+  "CORE_ENGINE": "EVENING-REPORT-LITE",
+  "CORE_HASH": "9624bb9e",
+  "CORE_VERSION": "1.1.0",
+  "ENGINE": "CANDIDATE-PIPELINE-V3",
+  "LADDER": "LADDER_BASELINE_v1.0.0",
+  "LADDER_HASH": "efa45defcb7edb217b655fd47f53c20e7d5be15e326b64192f9a49373890730d",
+  "LOCATION_SPEC": "LOCATION_SOURCE_SPEC_v1.0.0",
+  "LOCATION_SPEC_HASH": "9887f4edd4b92f4174efb7c1671d195cebeebad2a97c9894ce03988882cdbb90",
+  "LOC_MIN_LEAD_MIN": 15,
+  "LOC_MIN_SOURCES": 2,
+  "MEMORY_QUALIFY": "historical_weight>=50",
+  "MEMORY_WEIGHT_MIN": 50.0,
+  "PASSIVE_FACTOR": 1.3,
+  "PASSIVE_MIN": 5,
+  "PASSIVE_WINDOW_MS": 300000,
+  "PRIOR_ALLOW_SEALED_PREV_DAY": false,
+  "PRIOR_EXTREME_STEP": 0.5,
+  "PRIOR_SOURCES": "prev_rth_high,prev_rth_low,overnight_high,overnight_low,session_open",
+  "PROTOCOL": "CANDIDATE_PROTOCOL_v3",
+  "PROTOCOL_HASH": "03a35bd3512f7a2aea478faf4b2e14f982e02ef4f8794a5636f13ce518c52b0e",
+  "REARM_DEPART": 1.5,
+  "RTH_CLOSE_MIN": 1320,
+  "RTH_OPEN_MIN": 930,
+  "SESSION_OPENS_MIN": [
+   0,
+   540,
+   840,
+   930
+  ],
+  "TOL_PRIMARY": 0.5,
+  "TOL_STRICT": 0.25,
+  "VERSION": "0.5.0",
+  "ZONE_HALF": 0.25
+ },
+ "config_hash": "7630e27b7601",
+ "core_engine": "EVENING-REPORT-LITE",
+ "core_hash": "9624bb9e",
+ "core_version": "1.1.0",
+ "day": "2026-08-18",
+ "engine": "CANDIDATE-PIPELINE-V3",
+ "engine_version": "0.5.0",
+ "event_layer_version": "NEXUS FLOW HEADLESS 2.1.0",
+ "file": "candidates_2026-08-18.jsonl",
+ "ladder": "LADDER_BASELINE_v1.0.0",
+ "ladder_hash": "efa45defcb7edb217b655fd47f53c20e7d5be15e326b64192f9a49373890730d",
+ "location_spec": "LOCATION_SOURCE_SPEC_v1.0.0",
+ "location_spec_hash": "9887f4edd4b92f4174efb7c1671d195cebeebad2a97c9894ce03988882cdbb90",
+ "meta": {
+  "locations": 55,
+  "window": [
+   1787004000223,
+   1787083199889
+  ]
+ },
+ "protocol": "CANDIDATE_PROTOCOL_v3",
+ "protocol_hash": "03a35bd3512f7a2aea478faf4b2e14f982e02ef4f8794a5636f13ce518c52b0e",
+ "rows": 660,
+ "sha256": "273ec624bece546930675c59eebad8782dde40d3c5e946242433ef3346560dc4",
+ "shadow": {
+  "PREV_RTH_WITHHELD_DUE_TO_HOLDOUT": false,
+  "prev_day": "2026-08-17",
+  "prev_day_sealed": false,
+  "prev_rth_close_ts": 1786996800000,
+  "prev_rth_last_mid": 7768.5
+ },
+ "summary": {
+  "AGGRESSION": {
+   "FAIL": 253,
+   "PASS": 407
+  },
+  "AGGRESSION_REASON": {
+   "DELTA_AGAINST_THESIS": 181,
+   "NO_OPPONENT_ATTACK": 253,
+   "OPPONENT_VOLUME": 226
+  },
+  "AUCTION": {
+   "FAIL": 209,
+   "PASS": 451
+  },
+  "INVALIDATION": {
+   "INVALID": 22,
+   "OK": 638
+  },
+  "LOCATION": {
+   "FAIL": 139,
+   "PASS": 521
+  },
+  "PASSIVE": {
+   "FAIL": 376,
+   "PASS": 284
+  },
+  "all_four_pass": 85,
+  "confluence_count": {
+   "1": 110,
+   "2": 490,
+   "3": 60
+  },
+  "evaluable": 660,
+  "lead_time_minutes": {
+   "max": 717.75,
+   "median": 171.28,
+   "min": 0.04,
+   "p25": 56.0,
+   "p75": 369.97
+  },
+  "locations_with_candidates": 47,
+  "not_evaluable_reason": {},
+  "prior_reference": {
+   "overnight_high": 26,
+   "overnight_low": 448,
+   "prev_rth_low": 17
+  },
+  "session": {
+   "ASIA": 240,
+   "LONDON": 87,
+   "PREMARKET": 43,
+   "US_RTH": 290
+  },
+  "source_breakdown": {
+   "BRICK": 55,
+   "BRICK+MEMORY": 114,
+   "BRICK+MEMORY+PRIOR": 60,
+   "BRICK+PRIOR": 362,
+   "MEMORY+PRIOR": 14,
+   "PRIOR": 55
+  },
+  "source_presence": {
+   "BRICK": 591,
+   "MEMORY": 188,
+   "PRIOR": 491
+  },
+  "thesis": {
+   "LONG": 333,
+   "SHORT": 327
+  },
+  "total": 660,
+  "touches_per_location": {
+   "max": 59,
+   "mean": 14.0,
+   "median": 11,
+   "top5_share_pct": 32
+  },
+  "universe": {
+   "U2": 660
+  }
+ }
+}

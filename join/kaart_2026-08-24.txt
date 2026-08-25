@@ -1,0 +1,51 @@
+
+==============================================================================
+SIGNAAL 1   signaal 17:20:00 NL   niveau 7665.50
+venster 17:14:00 - 17:35:00   events 699   trades 47966
+laagste 7657.75 om 17:21:22     hoogste 7674.75 om 17:31:07
+==============================================================================
+
+SWEEPS
+  17:23:27  BUY    7662.75     65 lots  score 61.0
+  17:23:46  BUY    7663.25     83 lots  score 61.1
+  17:27:40  BUY    7665.75    100 lots  score 61.0
+  17:28:47  SELL   7667.00     32 lots  score 61.9
+
+VERDEDIGING - bid-absorptie, alleen nieuwe hoogste reloads
+  geen bid-absorptie met oplopende reloads
+
+VERBORGEN LIQUIDITEIT - bid iceberg, alleen nieuwe hoogste
+  17:14:13   7662.75   1058 lots
+
+OMSLAG
+  geen buy sweep na de laatste sell sweep in dit venster
+
+==============================================================================
+SIGNAAL 2   signaal 19:45:00 NL   niveau 7666.00
+venster 19:39:00 - 20:00:00   events 976   trades 19056
+laagste 7664.50 om 19:45:37     hoogste 7669.00 om 19:50:43
+==============================================================================
+
+SWEEPS
+  19:39:43  BUY    7667.25     97 lots  score 61.2
+  19:41:36  BUY    7666.75     32 lots  score 60.1
+  19:46:29  BUY    7666.00     38 lots  score 60.2
+  19:46:40  SELL   7665.25     56 lots  score 64.2
+  19:47:06  SELL   7664.75     66 lots  score 64.1
+  19:51:23  SELL   7667.25     24 lots  score 59.8
+  19:52:00  BUY    7667.50    122 lots  score 61.2
+
+VERDEDIGING - bid-absorptie, alleen nieuwe hoogste reloads
+  geen bid-absorptie met oplopende reloads
+
+VERBORGEN LIQUIDITEIT - bid iceberg, alleen nieuwe hoogste
+  19:39:07   7666.25    749 lots
+  19:39:56   7666.25    928 lots
+  19:44:13   7666.25   1017 lots
+  19:46:17   7665.00   1038 lots
+  19:48:07   7665.00   1169 lots
+
+OMSLAG
+  eerste buy sweep na de aanval: 19:52:00  7667.50  122 lots
+  INSTAP 7667.50 om 19:52:00
+  binnen 30 min: hoogste 7668.00 (+0.50)   laagste 7665.25 (-2.25)

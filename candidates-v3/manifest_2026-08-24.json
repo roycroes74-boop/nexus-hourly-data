@@ -1,0 +1,158 @@
+{
+ "PREV_RTH_WITHHELD_DUE_TO_HOLDOUT": false,
+ "canon": {
+  "AGG_DELTA_MAX": -5,
+  "AGG_OPP_FACTOR": 1.2,
+  "AGG_QUIET_MIN": 6,
+  "AGG_WINDOW_MS": 120000,
+  "AUCTION_VACUUM_FACTOR": 0.8,
+  "CLUSTER_TOL": 0.5,
+  "CORE_ENGINE": "EVENING-REPORT-LITE",
+  "CORE_HASH": "9624bb9e",
+  "CORE_VERSION": "1.1.0",
+  "ENGINE": "CANDIDATE-PIPELINE-V3",
+  "LADDER": "LADDER_BASELINE_v1.0.0",
+  "LADDER_HASH": "efa45defcb7edb217b655fd47f53c20e7d5be15e326b64192f9a49373890730d",
+  "LOCATION_SPEC": "LOCATION_SOURCE_SPEC_v1.0.0",
+  "LOCATION_SPEC_HASH": "9887f4edd4b92f4174efb7c1671d195cebeebad2a97c9894ce03988882cdbb90",
+  "LOC_MIN_LEAD_MIN": 15,
+  "LOC_MIN_SOURCES": 2,
+  "MEMORY_QUALIFY": "historical_weight>=50",
+  "MEMORY_WEIGHT_MIN": 50.0,
+  "PASSIVE_FACTOR": 1.3,
+  "PASSIVE_MIN": 5,
+  "PASSIVE_WINDOW_MS": 300000,
+  "PRIOR_ALLOW_SEALED_PREV_DAY": false,
+  "PRIOR_EXTREME_STEP": 0.5,
+  "PRIOR_SOURCES": "prev_rth_high,prev_rth_low,overnight_high,overnight_low,session_open",
+  "PROTOCOL": "CANDIDATE_PROTOCOL_v3",
+  "PROTOCOL_HASH": "03a35bd3512f7a2aea478faf4b2e14f982e02ef4f8794a5636f13ce518c52b0e",
+  "REARM_DEPART": 1.5,
+  "RTH_CLOSE_MIN": 1320,
+  "RTH_OPEN_MIN": 930,
+  "SESSION_OPENS_MIN": [
+   0,
+   540,
+   840,
+   930
+  ],
+  "TOL_PRIMARY": 0.5,
+  "TOL_STRICT": 0.25,
+  "VERSION": "0.5.0",
+  "ZONE_HALF": 0.25
+ },
+ "config_hash": "7630e27b7601",
+ "core_engine": "EVENING-REPORT-LITE",
+ "core_hash": "9624bb9e",
+ "core_version": "1.1.0",
+ "day": "2026-08-24",
+ "engine": "CANDIDATE-PIPELINE-V3",
+ "engine_version": "0.5.0",
+ "event_layer_version": "NEXUS FLOW HEADLESS 2.1.0",
+ "file": "candidates_2026-08-24.jsonl",
+ "ladder": "LADDER_BASELINE_v1.0.0",
+ "ladder_hash": "efa45defcb7edb217b655fd47f53c20e7d5be15e326b64192f9a49373890730d",
+ "location_spec": "LOCATION_SOURCE_SPEC_v1.0.0",
+ "location_spec_hash": "9887f4edd4b92f4174efb7c1671d195cebeebad2a97c9894ce03988882cdbb90",
+ "meta": {
+  "locations": 46,
+  "window": [
+   1787522400477,
+   1787601599966
+  ]
+ },
+ "protocol": "CANDIDATE_PROTOCOL_v3",
+ "protocol_hash": "03a35bd3512f7a2aea478faf4b2e14f982e02ef4f8794a5636f13ce518c52b0e",
+ "rows": 1303,
+ "sha256": "a9a51641f67aa146244f74fbad0e21154986d3f2c2c8be2499f5d765aa235ea8",
+ "shadow": {
+  "PREV_RTH_WITHHELD_DUE_TO_HOLDOUT": false,
+  "prev_day": null,
+  "prev_day_sealed": false
+ },
+ "summary": {
+  "AGGRESSION": {
+   "FAIL": 564,
+   "PASS": 732
+  },
+  "AGGRESSION_REASON": {
+   "DELTA_AGAINST_THESIS": 392,
+   "NO_OPPONENT_ATTACK": 564,
+   "OPPONENT_VOLUME": 340
+  },
+  "AUCTION": {
+   "FAIL": 440,
+   "PASS": 856
+  },
+  "INVALIDATION": {
+   "INVALID": 51,
+   "OK": 1245
+  },
+  "LOCATION": {
+   "FAIL": 65,
+   "PASS": 1231
+  },
+  "PASSIVE": {
+   "FAIL": 734,
+   "PASS": 562
+  },
+  "all_four_pass": 157,
+  "confluence_count": {
+   "1": 56,
+   "2": 346,
+   "3": 901
+  },
+  "evaluable": 1296,
+  "lead_time_minutes": {
+   "max": 1230.19,
+   "median": 474.39,
+   "min": 0.12,
+   "p25": 245.19,
+   "p75": 700.71
+  },
+  "locations_with_candidates": 42,
+  "not_evaluable_reason": {
+   "BOOK_NOT_32": 3,
+   "DQ_DEGRADED": 1,
+   "DQ_DEGRADED,BOOK_NOT_32": 3
+  },
+  "prior_reference": {
+   "overnight_high": 132,
+   "overnight_low": 1072
+  },
+  "session": {
+   "ASIA": 339,
+   "LONDON": 217,
+   "PREMARKET": 82,
+   "US_RTH": 665
+  },
+  "source_breakdown": {
+   "BRICK": 8,
+   "BRICK+MEMORY": 91,
+   "BRICK+MEMORY+PRIOR": 901,
+   "BRICK+PRIOR": 96,
+   "MEMORY+PRIOR": 159,
+   "PRIOR": 48
+  },
+  "source_presence": {
+   "BRICK": 1096,
+   "MEMORY": 1151,
+   "PRIOR": 1204
+  },
+  "thesis": {
+   "LONG": 625,
+   "SHORT": 678
+  },
+  "total": 1303,
+  "touches_per_location": {
+   "max": 110,
+   "mean": 31.0,
+   "median": 21,
+   "top5_share_pct": 35
+  },
+  "universe": {
+   "U1": 7,
+   "U2": 1296
+  }
+ }
+}

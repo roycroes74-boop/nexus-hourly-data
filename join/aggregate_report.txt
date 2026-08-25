@@ -1,0 +1,176 @@
+==========================================================================
+AGGREGATE  -  ANSWER_KEY_JOIN_SPEC_v1.0.0
+==========================================================================
+  Elk cijfer per sessie EN gepoold. Nooit alleen gepoold.
+  Primaire clustermaat: EERSTE IN AANMERKING KOMENDE AANRAKING per cluster.
+  'Beste aanraking per locatie' bestaat hier niet - dat is uitkomstselectie.
+
+--------------------------------------------------------------------------
+2026-08-14
+--------------------------------------------------------------------------
+  kandidaten 239   evaluable 216   paused 2   censored 21
+      censored: SEAL_TRUNCATED = 21
+      paused:   BOOK_NOT_32 = 2
+  REAL 83   FAILED 135
+
+  KANDIDAATNIVEAU
+  alle evalueerbare aanrakingen
+    n=216   TP 8   FP 29   missed 74   correct-reject 105
+    precision 0.216   recall 0.098   base rate 0.380
+
+  CLUSTERNIVEAU
+  PRIMAIR - eerste in aanmerking komende aanraking per cluster
+    n=11   TP 0   FP 0   missed 7   correct-reject 4
+    precision -   recall 0.000   base rate 0.636
+
+    beschrijvend, geen primaire maat:
+  alle aanrakingen
+    n=216   TP 8   FP 29   missed 74   correct-reject 105
+    precision 0.216   recall 0.098   base rate 0.380
+  aanraking 1
+    n=11   TP 0   FP 0   missed 7   correct-reject 4
+    precision -   recall 0.000   base rate 0.636
+  aanrakingen 2-3
+    n=21   TP 1   FP 4   missed 8   correct-reject 8
+    precision 0.200   recall 0.111   base rate 0.429
+  aanrakingen >= 4
+    n=184   TP 7   FP 25   missed 59   correct-reject 93
+    precision 0.219   recall 0.106   base rate 0.359
+
+  AFHANKELIJKHEID
+    unieke clusters 14   per cluster mediaan 12.0  p75 29  max 44
+    top-5 clusteraandeel 73.6%
+
+  CONTINU PAD - mediane MFE per bevroren horizon (punten)
+        5s     15s     30s     60s      5m     15m     30m
+     -0.00   -0.00    0.25    0.25    0.75    1.25    1.75
+    tijd tot 2.5pt, mediaan 1004s  p75 1321s
+
+--------------------------------------------------------------------------
+2026-08-17
+--------------------------------------------------------------------------
+  kandidaten 528   evaluable 467   paused 3   censored 58
+      censored: TAPE_ENDS_BEFORE_HORIZON = 58
+      paused:   BOOK_NOT_32 = 3
+  REAL 274   FAILED 196
+
+  KANDIDAATNIVEAU
+  alle evalueerbare aanrakingen
+    n=467   TP 32   FP 24   missed 240   correct-reject 171
+    precision 0.571   recall 0.118   base rate 0.582
+
+  CLUSTERNIVEAU
+  PRIMAIR - eerste in aanmerking komende aanraking per cluster
+    n=41   TP 2   FP 2   missed 18   correct-reject 19
+    precision 0.500   recall 0.100   base rate 0.488
+
+    beschrijvend, geen primaire maat:
+  alle aanrakingen
+    n=467   TP 32   FP 24   missed 240   correct-reject 171
+    precision 0.571   recall 0.118   base rate 0.582
+  aanraking 1
+    n=11   TP 0   FP 0   missed 5   correct-reject 6
+    precision -   recall 0.000   base rate 0.455
+  aanrakingen 2-3
+    n=36   TP 2   FP 3   missed 18   correct-reject 13
+    precision 0.400   recall 0.100   base rate 0.556
+  aanrakingen >= 4
+    n=420   TP 30   FP 21   missed 217   correct-reject 152
+    precision 0.588   recall 0.121   base rate 0.588
+
+  AFHANKELIJKHEID
+    unieke clusters 47   per cluster mediaan 10  p75 17  max 28
+    top-5 clusteraandeel 24.2%
+
+  CONTINU PAD - mediane MFE per bevroren horizon (punten)
+        5s     15s     30s     60s      5m     15m     30m
+      0.25    0.25    0.25    0.50    1.25    2.25    3.25
+    tijd tot 2.5pt, mediaan 354s  p75 707s
+
+--------------------------------------------------------------------------
+2026-08-18
+--------------------------------------------------------------------------
+  kandidaten 660   evaluable 622   paused 0   censored 38
+      censored: TAPE_ENDS_BEFORE_HORIZON = 38
+  REAL 375   FAILED 247
+
+  KANDIDAATNIVEAU
+  alle evalueerbare aanrakingen
+    n=622   TP 48   FP 35   missed 327   correct-reject 212
+    precision 0.578   recall 0.128   base rate 0.603
+
+  CLUSTERNIVEAU
+  PRIMAIR - eerste in aanmerking komende aanraking per cluster
+    n=45   TP 1   FP 0   missed 21   correct-reject 23
+    precision 1.000   recall 0.045   base rate 0.489
+
+    beschrijvend, geen primaire maat:
+  alle aanrakingen
+    n=622   TP 48   FP 35   missed 327   correct-reject 212
+    precision 0.578   recall 0.128   base rate 0.603
+  aanraking 1
+    n=6   TP 0   FP 0   missed 3   correct-reject 3
+    precision -   recall 0.000   base rate 0.500
+  aanrakingen 2-3
+    n=57   TP 2   FP 0   missed 23   correct-reject 32
+    precision 1.000   recall 0.080   base rate 0.439
+  aanrakingen >= 4
+    n=559   TP 46   FP 35   missed 301   correct-reject 177
+    precision 0.568   recall 0.133   base rate 0.621
+
+  AFHANKELIJKHEID
+    unieke clusters 47   per cluster mediaan 11  p75 20  max 59
+    top-5 clusteraandeel 32.0%
+
+  CONTINU PAD - mediane MFE per bevroren horizon (punten)
+        5s     15s     30s     60s      5m     15m     30m
+      0.00    0.25    0.25    0.50    1.25    2.25    3.00
+    tijd tot 2.5pt, mediaan 312s  p75 779s
+
+--------------------------------------------------------------------------
+POOLED
+--------------------------------------------------------------------------
+  kandidaten 1427   evaluable 1305   paused 5   censored 117
+      censored: TAPE_ENDS_BEFORE_HORIZON = 96
+      censored: SEAL_TRUNCATED = 21
+      paused:   BOOK_NOT_32 = 5
+  REAL 732   FAILED 578
+
+  KANDIDAATNIVEAU
+  alle evalueerbare aanrakingen
+    n=1305   TP 88   FP 88   missed 641   correct-reject 488
+    precision 0.500   recall 0.121   base rate 0.559
+
+  CLUSTERNIVEAU
+  PRIMAIR - eerste in aanmerking komende aanraking per cluster
+    n=97   TP 3   FP 2   missed 46   correct-reject 46
+    precision 0.600   recall 0.061   base rate 0.505
+
+    beschrijvend, geen primaire maat:
+  alle aanrakingen
+    n=1305   TP 88   FP 88   missed 641   correct-reject 488
+    precision 0.500   recall 0.121   base rate 0.559
+  aanraking 1
+    n=28   TP 0   FP 0   missed 15   correct-reject 13
+    precision -   recall 0.000   base rate 0.536
+  aanrakingen 2-3
+    n=114   TP 5   FP 7   missed 49   correct-reject 53
+    precision 0.417   recall 0.093   base rate 0.474
+  aanrakingen >= 4
+    n=1163   TP 83   FP 81   missed 577   correct-reject 422
+    precision 0.506   recall 0.126   base rate 0.567
+
+  AFHANKELIJKHEID
+    unieke clusters 108   per cluster mediaan 10.5  p75 18  max 59
+    top-5 clusteraandeel 16.2%
+
+  CONTINU PAD - mediane MFE per bevroren horizon (punten)
+        5s     15s     30s     60s      5m     15m     30m
+     -0.00    0.25    0.25    0.50    1.00    2.00    2.75
+    tijd tot 2.5pt, mediaan 387s  p75 862s
+
+==========================================================================
+  H4-PRE wordt hier NIET getoetst. Dat gebeurt in een aparte stap,
+  tegen de gehashte pre-registratie, met Fisher exact, per sessie en
+  gepoold, en met 14 augustus uitgesloten van de vergelijking.
+==========================================================================

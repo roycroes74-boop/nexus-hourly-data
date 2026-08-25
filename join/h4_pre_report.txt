@@ -1,0 +1,87 @@
+==========================================================================
+H4-PRE TOETS   pre-registratie sha256 d7dd8806...c2fcd
+==========================================================================
+
+PREVALENTIE - descriptief, outcome-blind, niet deel van de hypothese
+  2026-08-14    239 /   239   100.0%   (vooraf 239/239: OK)
+  2026-08-17    522 /   528    98.9%   (vooraf 522/528: OK)
+  2026-08-18    591 /   660    89.5%   (vooraf 591/660: OK)
+  totaal       1352 /  1427    94.7%   - 75 zonder BRICK
+
+==========================================================================
+KANDIDAATNIVEAU
+==========================================================================
+
+  2026-08-14  UITGESLOTEN uit de vergelijking (regel 5)
+    alleen voor de administratie: aanwezig 82/134, afwezig 0/0
+
+  2026-08-17
+    n = 467
+                     REAL   FAILED   REAL rate
+    BRICK aanwezig    266     195      0.577
+    BRICK afwezig       6       0      1.000
+    Fisher exact (tweezijdig): p = 0.0432   odds ratio = 0.000
+    LET OP: BRICK-afwezige groep n = 6. Underpowered;
+      een niet-significante p is hier oninformatief.
+
+  2026-08-18
+    n = 622
+                     REAL   FAILED   REAL rate
+    BRICK aanwezig    332     221      0.600
+    BRICK afwezig      43      26      0.623
+    Fisher exact (tweezijdig): p = 0.7945   odds ratio = 0.908
+
+  GEPOOLD (17 + 18 aug)
+    n = 1089
+                     REAL   FAILED   REAL rate
+    BRICK aanwezig    598     416      0.590
+    BRICK afwezig      49      26      0.653
+    Fisher exact (tweezijdig): p = 0.3298   odds ratio = 0.763
+
+==========================================================================
+CLUSTERNIVEAU - clusters als eenheid
+==========================================================================
+
+  Eenheid: eerste in aanmerking komende aanraking per canoniek cluster,
+  zoals bevroren in ANSWER_KEY_JOIN_SPEC_v1.0.0. Geen herclustering.
+
+  2026-08-14  UITGESLOTEN. administratie: aanwezig 7/4, afwezig 0/0
+
+  2026-08-17  (41 clusters)
+    n = 41
+                     REAL   FAILED   REAL rate
+    BRICK aanwezig     18      21      0.462
+    BRICK afwezig       2       0      1.000
+    Fisher exact (tweezijdig): p = 0.2317   odds ratio = 0.000
+    LET OP: BRICK-afwezige groep n = 2. Underpowered;
+      een niet-significante p is hier oninformatief.
+
+  2026-08-18  (45 clusters)
+    n = 45
+                     REAL   FAILED   REAL rate
+    BRICK aanwezig     17      15      0.531
+    BRICK afwezig       5       8      0.385
+    Fisher exact (tweezijdig): p = 0.5136   odds ratio = 1.813
+
+  GEPOOLD (17 + 18 aug, 86 clusters)
+    n = 86
+                     REAL   FAILED   REAL rate
+    BRICK aanwezig     35      36      0.493
+    BRICK afwezig       7       8      0.467
+    Fisher exact (tweezijdig): p = 1.0000   odds ratio = 1.111
+
+==========================================================================
+LEZING - vooraf vastgelegd, ongewijzigd toegepast
+==========================================================================
+
+  Regel 1: significantie is alleen interpreteerbaar als zij standhoudt
+           op clusterniveau.
+           -> Geen significante associatie op kandidaatniveau.
+
+  Regel 2: lijkt BRICK voorspellend, dan is de eerste hypothese lekkage
+           uit de kandidaatgeneratie, niet signaal.
+  Regel 3: prevalentieheterogeniteit is hierboven hoe dan ook gerapporteerd.
+
+  Niet gedaan, want verboden: prevalentie is niet verlaagd, herbalanceerd,
+  hersampled of gefilterd. De formulering van H4-PRE is niet gewijzigd.
+

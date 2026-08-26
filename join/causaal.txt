@@ -4,41 +4,81 @@ terugblik 10 min   stap 5 s   venster 45 min
 ============================================================================================
 
 ============================================================================================
-2026-08-26  15:56:00 NL  SHORT  niveau 7701.25
+2026-08-26  15:43:00 NL  SHORT  niveau 7697.00
 ============================================================================================
   normaal op dit niveau: reloads 0.0 (n=0), verborgen 0.0 (n=0)
 
-  delta        15:56:05   delta 10min    -11042   prijs 10min  -0.50   verdediging 0.0x
-  verdediging  15:56:40   delta 10min     -7853   prijs 10min  +5.50   verdediging 96.0x
-  beide        16:06:25   delta 10min    +21393   prijs 10min  +0.00   verdediging 1186.0x
+  verdediging  15:43:35   delta 10min    +44255   prijs 10min  +5.50   verdediging 45.0x
+  delta        15:50:40   delta 10min    +38323   prijs 10min  -1.00   verdediging 1131.0x
+  beide        15:50:40   delta 10min    +38323   prijs 10min  -1.00   verdediging 1131.0x
 
   INSTAPPEN
-    B  blind op het signaal            15:56:00  instap  7699.50  (+1.75 slechter dan niveau)
-        1m    MFE   +1.50   MAE   -2.25
-        5m    MFE   +2.00   MAE   -2.25
-        15m   MFE   +3.00   MAE   -3.00
-        30m   MFE  +15.75   MAE   -3.00
-        60m   MFE  +19.00   MAE   -3.00
-        top    +19.00  op 16:28:14  (7680.50)
-    D  zodra delta klopt               15:56:05  instap  7698.75  (+2.50 slechter dan niveau)
-        1m    MFE   +0.75   MAE   -3.00
-        5m    MFE   +1.25   MAE   -3.00
-        15m   MFE   +2.25   MAE   -3.75
-        30m   MFE  +15.50   MAE   -3.75
-        60m   MFE  +18.25   MAE   -3.75
-        top    +18.25  op 16:28:14  (7680.50)
-    V  zodra verdediging boven normaal 15:56:40  instap  7701.00  (+0.25 slechter dan niveau)
-        1m    MFE   +2.00   MAE   +0.00
-        5m    MFE   +3.50   MAE   -0.50
-        15m   MFE   +4.50   MAE   -1.50
-        30m   MFE  +19.00   MAE   -1.50
-        60m   MFE  +20.50   MAE   -1.50
-        top    +20.50  op 16:28:14  (7680.50)
-    DV zodra allebei                   16:06:25  instap  7699.25  (+2.00 slechter dan niveau)
-        1m    MFE   +1.25   MAE   -2.50
-        5m    MFE   +2.75   MAE   -2.50
-        15m   MFE   +9.25   MAE   -2.50
-        30m   MFE  +18.75   MAE   -2.50
-        60m   MFE  +18.75   MAE   -2.50
-        top    +18.75  op 16:28:14  (7680.50)
+    B  blind op het signaal            15:43:00  instap  7690.25  (+6.75 slechter dan niveau)
+        1m    MFE   +0.25   MAE   -7.75
+        5m    MFE   +0.25   MAE   -9.25
+        15m   MFE   +1.75   MAE  -11.50
+        30m   MFE   +1.75   MAE  -12.25
+        60m   MFE   +9.75   MAE  -12.25
+        top    +19.25  op 18:43:49  (7671.00)
+    D  zodra delta klopt               15:50:40  instap  7689.00  (+8.00 slechter dan niveau)
+        1m    MFE   +0.50   MAE   -2.75
+        5m    MFE   +0.50   MAE  -10.00
+        15m   MFE   +0.50   MAE  -13.50
+        30m   MFE   +0.50   MAE  -13.50
+        60m   MFE   +8.50   MAE  -13.50
+        top    +18.00  op 18:43:49  (7671.00)
+    V  zodra verdediging boven normaal 15:43:35  instap  7696.00  (+1.00 slechter dan niveau)
+        1m    MFE   +1.50   MAE   -2.50
+        5m    MFE   +3.50   MAE   -3.50
+        15m   MFE   +7.50   MAE   -5.75
+        30m   MFE   +7.50   MAE   -6.50
+        60m   MFE  +15.50   MAE   -6.50
+        top    +25.00  op 18:43:49  (7671.00)
+    DV zodra allebei                   15:50:40  instap  7689.00  (+8.00 slechter dan niveau)
+        1m    MFE   +0.50   MAE   -2.75
+        5m    MFE   +0.50   MAE  -10.00
+        15m   MFE   +0.50   MAE  -13.50
+        30m   MFE   +0.50   MAE  -13.50
+        60m   MFE   +8.50   MAE  -13.50
+        top    +18.00  op 18:43:49  (7671.00)
+
+
+============================================================================================
+2026-08-26  15:50:00 NL  LONG  niveau 7688.62
+============================================================================================
+  normaal op dit niveau: reloads 70.0 (n=53), verborgen 309.0 (n=207)
+
+  delta        15:50:00   delta 10min    +42788   prijs 10min  +3.50   verdediging 0.0x
+  verdediging  15:50:10   delta 10min    +40829   prijs 10min  +3.50   verdediging 1.1x
+  beide        15:50:10   delta 10min    +40829   prijs 10min  +3.50   verdediging 1.1x
+
+  INSTAPPEN
+    B  blind op het signaal            15:50:00  instap  7691.25  (+2.62 slechter dan niveau)
+        1m    MFE   +0.50   MAE   -2.50
+        5m    MFE   +7.50   MAE   -2.75
+        15m   MFE  +11.25   MAE   -2.75
+        30m   MFE  +11.25   MAE   -2.75
+        60m   MFE  +11.25   MAE  -10.75
+        top    +11.25  op 16:04:55  (7702.50)
+    D  zodra delta klopt               15:50:00  instap  7691.25  (+2.62 slechter dan niveau)
+        1m    MFE   +0.50   MAE   -2.50
+        5m    MFE   +7.50   MAE   -2.75
+        15m   MFE  +11.25   MAE   -2.75
+        30m   MFE  +11.25   MAE   -2.75
+        60m   MFE  +11.25   MAE  -10.75
+        top    +11.25  op 16:04:55  (7702.50)
+    V  zodra verdediging boven normaal 15:50:10  instap  7691.00  (+2.38 slechter dan niveau)
+        1m    MFE   +0.25   MAE   -2.50
+        5m    MFE   +8.00   MAE   -2.50
+        15m   MFE  +11.50   MAE   -2.50
+        30m   MFE  +11.50   MAE   -2.50
+        60m   MFE  +11.50   MAE  -10.50
+        top    +11.50  op 16:04:55  (7702.50)
+    DV zodra allebei                   15:50:10  instap  7691.00  (+2.38 slechter dan niveau)
+        1m    MFE   +0.25   MAE   -2.50
+        5m    MFE   +8.00   MAE   -2.50
+        15m   MFE  +11.50   MAE   -2.50
+        30m   MFE  +11.50   MAE   -2.50
+        60m   MFE  +11.50   MAE  -10.50
+        top    +11.50  op 16:04:55  (7702.50)
 

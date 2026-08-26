@@ -1,0 +1,134 @@
+================================================================================================
+SNIPER v3 - ALTIJD EEN MOMENT, ALTIJD EEN STERKTE. GEEN POORTEN.
+De mediaan is de meetlat, niet de drempel.
+================================================================================================
+
+================================================================================================
+2026-08-24  17:20:00 NL  LONG  niveau 7665.50
+================================================================================================
+  MEETLAT (strak, +/-0.5 pt, 30 min ervoor): 6 absorpties, 6 icebergs
+      normaal: reloads 267.5   verborgen omvang 80.0
+  IN VENSTER (17:20:00 - 17:40:00): 209 gebeurtenissen
+
+  VERDEDIGING t.o.v. normaal - alleen nieuwe hoogtepunten
+    17:24:54  reloads 5          =   0.0x normaal   @ 7665.25
+    17:24:56  verborgen 112      =   1.4x normaal   @ 7665.25
+    17:25:11  verborgen 222      =   2.8x normaal   @ 7665.25
+    17:26:44  verborgen 275      =   3.4x normaal   @ 7665.50
+    17:27:00  verborgen 294      =   3.7x normaal   @ 7665.50
+    17:27:15  verborgen 412      =   5.2x normaal   @ 7665.50
+    17:27:33  verborgen 474      =   5.9x normaal   @ 7665.50
+    17:27:48  verborgen 595      =   7.4x normaal   @ 7665.50
+    17:28:03  verborgen 601      =   7.5x normaal   @ 7665.50
+    17:28:18  verborgen 770      =   9.6x normaal   @ 7665.75
+    17:27:40  BUY_SWEEP 100 lots @ 7665.75
+
+  STERKTE: reloads piek 1.1x normaal, verborgen omvang piek 9.6x normaal
+  OORDEEL: STERK
+
+  INSTAPPEN
+    M1 eerste opleving             17:24:56  instap  7665.25   (-0.25 t.o.v. niveau)
+        5s    MFE   +0.25   MAE   -0.25
+        30s   MFE   +2.00   MAE   -0.25
+        1m    MFE   +2.00   MAE   -0.25
+        5m    MFE   +9.00   MAE   -0.75
+        15m   MFE  +10.50   MAE   -0.75
+        30m   MFE  +16.25   MAE   -0.75
+        60m   MFE  +21.25   MAE   -0.75
+        top    +21.25  op 18:22:08  (7686.50)
+    M2 piek (9.6x, verborgen 770)  17:28:20  instap  7666.00   (+0.50 t.o.v. niveau)
+        5s    MFE   +0.75   MAE   +0.00
+        30s   MFE   +2.00   MAE   +0.00
+        1m    MFE   +7.00   MAE   +0.00
+        5m    MFE   +8.75   MAE   +0.00
+        15m   MFE  +12.75   MAE   +0.00
+        30m   MFE  +15.50   MAE   +0.00
+        60m   MFE  +20.50   MAE   +0.00
+        top    +20.50  op 18:22:08  (7686.50)
+    S  eerste sweep                17:27:40  instap  7665.75   (+0.25 t.o.v. niveau)
+        5s    MFE   +0.25   MAE   -0.25
+        30s   MFE   +0.50   MAE   -0.75
+        1m    MFE   +2.25   MAE   -0.75
+        5m    MFE   +9.00   MAE   -0.75
+        15m   MFE  +12.00   MAE   -0.75
+        30m   MFE  +15.75   MAE   -0.75
+        60m   MFE  +20.75   MAE   -0.75
+        top    +20.75  op 18:22:08  (7686.50)
+    B  blind op jouw niveau        17:20:00  instap  7665.50   (+0.00 t.o.v. niveau)
+        5s    MFE   -4.50   MAE   -4.75
+        30s   MFE   -4.50   MAE   -6.75
+        1m    MFE   -4.50   MAE   -7.25
+        5m    MFE   +0.50   MAE   -7.75
+        15m   MFE   +9.25   MAE   -7.75
+        30m   MFE  +16.00   MAE   -7.75
+        60m   MFE  +20.50   MAE   -7.75
+        top    +21.00  op 18:22:08  (7686.50)
+
+
+================================================================================================
+2026-08-24  19:45:00 NL  LONG  niveau 7666.25
+================================================================================================
+  MEETLAT (strak, +/-0.5 pt, 30 min ervoor): 19 absorpties, 66 icebergs
+      normaal: reloads 359.0   verborgen omvang 324.0
+  IN VENSTER (19:45:00 - 20:05:00): 276 gebeurtenissen
+
+  VERDEDIGING t.o.v. normaal - alleen nieuwe hoogtepunten
+    19:46:34  reloads 11         =   0.0x normaal   @ 7665.75
+    19:46:40  verborgen 63       =   0.2x normaal   @ 7665.75
+    19:47:22  verborgen 112      =   0.3x normaal   @ 7665.75
+    19:47:38  verborgen 154      =   0.5x normaal   @ 7665.75
+    19:48:42  verborgen 160      =   0.5x normaal   @ 7666.00
+    19:48:57  verborgen 170      =   0.5x normaal   @ 7666.00
+    19:49:27  verborgen 179      =   0.6x normaal   @ 7666.00
+    19:49:48  verborgen 367      =   1.1x normaal   @ 7665.75
+    19:50:03  verborgen 387      =   1.2x normaal   @ 7665.75
+    19:53:32  verborgen 496      =   1.5x normaal   @ 7666.00
+    19:53:48  verborgen 552      =   1.7x normaal   @ 7666.00
+    19:54:04  verborgen 634      =   2.0x normaal   @ 7666.00
+    19:54:24  verborgen 651      =   2.0x normaal   @ 7665.75
+    19:55:09  verborgen 660      =   2.0x normaal   @ 7665.75
+    19:55:25  verborgen 791      =   2.4x normaal   @ 7666.00
+    19:58:11  verborgen 891      =   2.8x normaal   @ 7666.00
+    19:46:29  BUY_SWEEP 38 lots @ 7666.00
+
+  STERKTE: reloads piek 1.3x normaal, verborgen omvang piek 2.8x normaal
+  OORDEEL: MATIG
+
+  INSTAPPEN
+    M1 eerste opleving             19:49:49  instap  7666.00   (-0.25 t.o.v. niveau)
+        5s    MFE   +0.00   MAE   -0.25
+        30s   MFE   +1.25   MAE   -0.25
+        1m    MFE   +3.00   MAE   -0.25
+        5m    MFE   +3.00   MAE   -0.75
+        15m   MFE   +4.75   MAE   -0.75
+        30m   MFE  +13.25   MAE   -0.75
+        60m   MFE  +19.25   MAE   -0.75
+        top    +19.25  op 20:30:21  (7685.25)
+    M2 piek (2.8x, verborgen 891)  19:58:12  instap  7667.25   (+1.00 t.o.v. niveau)
+        5s    MFE   +0.00   MAE   -0.25
+        30s   MFE   +0.00   MAE   -0.50
+        1m    MFE   +0.00   MAE   -0.75
+        5m    MFE   +3.50   MAE   -0.75
+        15m   MFE   +7.00   MAE   -0.75
+        30m   MFE  +14.50   MAE   -0.75
+        60m   MFE  +18.00   MAE   -0.75
+        top    +18.00  op 20:30:21  (7685.25)
+    S  eerste sweep                19:46:29  instap  7666.00   (-0.25 t.o.v. niveau)
+        5s    MFE   +0.00   MAE   -0.25
+        30s   MFE   +0.00   MAE   -1.00
+        1m    MFE   +0.00   MAE   -1.25
+        5m    MFE   +3.00   MAE   -1.25
+        15m   MFE   +4.50   MAE   -1.25
+        30m   MFE  +13.25   MAE   -1.25
+        60m   MFE  +19.25   MAE   -1.25
+        top    +19.25  op 20:30:21  (7685.25)
+    B  blind op jouw niveau        19:45:00  instap  7666.25   (+0.00 t.o.v. niveau)
+        5s    MFE   -1.00   MAE   -1.25
+        30s   MFE   -0.75   MAE   -1.25
+        1m    MFE   -0.75   MAE   -1.75
+        5m    MFE   +0.75   MAE   -1.75
+        15m   MFE   +2.75   MAE   -1.75
+        30m   MFE  +10.75   MAE   -1.75
+        60m   MFE  +19.00   MAE   -1.75
+        top    +19.00  op 20:30:21  (7685.25)
+

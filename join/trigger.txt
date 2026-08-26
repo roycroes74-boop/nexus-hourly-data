@@ -4,31 +4,31 @@ t0 = het eerste moment dat de prijs je niveau raakt. Alles daarna is causaal.
 ============================================================================================
 
 ============================================================================================
-2026-08-26  LONG  trigger 7681.75  zone 7680.75 +/- 1.00  (zoeken vanaf 09:25:00)
+2026-08-26  SHORT  trigger 7687.75  zone 7688.38 +/- 0.62  (zoeken vanaf 09:10:00)
 ============================================================================================
-  prijs raakt je niveau om 09:31:16
-  normaal in de zone: reloads 0.0 (n=0), verborgen 0.0 (n=0)
+  prijs raakt je niveau om 09:14:25
+  normaal in de zone: reloads 0.0 (n=0), verborgen 73.0 (n=98)
 
   INSTAPPEN
-    B  meteen bij aanraking          09:31:16  instap  7681.75  (-0.00 t.o.v. trigger)
-        1m    MFE   +0.50   MAE   -0.75
-        5m    MFE   +2.50   MAE   -1.00
-        15m   MFE   +2.50   MAE   -1.00
-        30m   MFE   +4.50   MAE   -1.00
-        60m   MFE   +8.50   MAE   -1.00
-        top    +13.00  op 13:18:36  (7694.75)
-    V  eerste verdediging (+45s)     09:32:01  instap  7681.25  (+0.50 t.o.v. trigger)
-        1m    MFE   +0.50   MAE   -0.50
-        5m    MFE   +3.00   MAE   -0.50
-        15m   MFE   +3.00   MAE   -0.50
-        30m   MFE   +5.25   MAE   -0.50
-        60m   MFE   +9.00   MAE   -0.50
-        top    +13.50  op 13:18:36  (7694.75)
-    D  delta klopt (+315s)           09:36:31  instap  7683.75  (-2.00 t.o.v. trigger)
-        1m    MFE   +0.25   MAE   -0.75
-        5m    MFE   +0.25   MAE   -1.75
-        15m   MFE   +2.50   MAE   -1.75
-        30m   MFE   +5.25   MAE   -1.75
-        60m   MFE   +6.50   MAE   -1.75
-        top    +11.00  op 13:18:36  (7694.75)
+    B  meteen bij aanraking          09:14:25  instap  7687.75  (-0.00 t.o.v. trigger)
+        1m    MFE   +0.25   MAE   -1.00
+        5m    MFE   +1.50   MAE   -1.00
+        15m   MFE   +5.50   MAE   -1.00
+        30m   MFE   +7.00   MAE   -1.00
+        60m   MFE   +7.00   MAE   -2.50
+        top     +7.00  op 09:32:37  (7680.75)
+    V  eerste verdediging (+5s)      09:14:30  instap  7687.75  (-0.00 t.o.v. trigger)
+        1m    MFE   +1.00   MAE   -1.00
+        5m    MFE   +1.50   MAE   -1.00
+        15m   MFE   +5.50   MAE   -1.00
+        30m   MFE   +7.00   MAE   -1.00
+        60m   MFE   +7.00   MAE   -2.50
+        top     +7.00  op 09:32:37  (7680.75)
+    D  delta klopt (+0s)             09:14:25  instap  7687.75  (-0.00 t.o.v. trigger)
+        1m    MFE   +0.25   MAE   -1.00
+        5m    MFE   +1.50   MAE   -1.00
+        15m   MFE   +5.50   MAE   -1.00
+        30m   MFE   +7.00   MAE   -1.00
+        60m   MFE   +7.00   MAE   -2.50
+        top     +7.00  op 09:32:37  (7680.75)
 
